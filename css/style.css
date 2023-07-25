@@ -190,7 +190,6 @@ main{
     cursor: pointer;
     user-select: none;
 }
-
 #navigation-buttons>.navigation-button:hover{
     border: 1px solid  rgb(218, 220, 224);
     color: #202124;
@@ -199,4 +198,22 @@ main{
 #navigation-buttons>.navigation-button:focus{
     border: 1px solid #4285f4;
 }
+#languages{
+    display: flex;
+    height: 28px;
+}
+
+#languages>span{
+    color: #4d5156;
+}
+
+#languages span,a{
+    display: block;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 28px;
+    padding: 0 3px;
+}
+
+
 /*main*/

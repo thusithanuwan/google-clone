@@ -70,11 +70,13 @@ header a:hover{
     cursor: pointer;
 }
 
-#sign-in>span{
+#sign-in>span>a{
     line-height: 16px;
     font-size: 14px;
     color: white;
     font-weight: 500;
+    user-select: none;
+    text-decoration: none;
 }
 
 #sign-in:hover{

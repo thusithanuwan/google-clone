@@ -1,0 +1,45 @@
+@media all and (max-width){
+
+}
+
+ @media all and (max-width: 1200px) {
+    #footer-navigation{
+        justify-content: space-evenly;
+    }
+}
+
+@media all and (max-height: 500px){
+    footer{
+        margin-top: 20px;
+        position: relative;
+    }
+}
+
+
+
+
+
+@media all and (max-width: 475px) {
+    header {
+        justify-content: center;
+    }
+}
+
+@media all and (max-width: 1200px){
+    #nav-links {
+        justify-content: space-evenly;
+    }
+}
+
+@media all and (max-width: 360px){
+    #search-form {
+        padding: 10px;
+    }
+}
+
+@media all and (max-height: 500px){
+    footer {
+        margin-top: 20px;
+        position: relative;
+    }
+}

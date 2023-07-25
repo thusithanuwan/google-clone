@@ -100,7 +100,7 @@ main{
     align-items: center;
 }
 
-#goole-image{
+#google-image{
     display: flex;
     height: calc(100vh - 560px);
     align-items: flex-end;
@@ -108,7 +108,7 @@ main{
     max-height: 290px;
 }
 
-#goole-image>img{
+#google-image>img{
     height: 92px;
 }
 

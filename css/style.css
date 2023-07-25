@@ -92,3 +92,111 @@ header a:hover{
     box-shadow: 0 1px 3px 1px rgb(66 64 67 / 15%), 0 1px 2px 0 rgb(60 64 67 / 30%);
 }
 /*header*/
+
+/*main*/
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#goole-image{
+    display: flex;
+    height: calc(100vh - 560px);
+    align-items: flex-end;
+    min-height: 150px;
+    max-height: 290px;
+}
+
+#goole-image>img{
+    height: 92px;
+}
+
+#search-form{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 582px;
+    width: 100%;
+    /* width: 582px; */
+    height: 44px;
+    padding: 5px 8px 0 14px;
+    border: 1px solid rgb(223, 225, 229);
+    border-radius: 24px;
+}
+
+#search:hover, #search:active{
+    box-shadow:  0 1px 6px rgb(32 33 36 / 28%)
+}
+
+#search>input{
+    flex-grow: 1;
+    height: 34px;
+    outline: none;
+    border: 1px solid transparent;
+}
+
+#svg-search{
+    /* background-color: red; */
+    padding-right: 13px;
+}
+
+#svg-search svg{
+    width: 20px;
+    height: 20px;
+}
+
+#svg-voice{
+    /* background-color: blue; */
+    padding: 0 8px;
+}
+
+#svg-voice svg{
+    width: 24px;
+    height: 24px;
+}
+#navigation-buttons{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    width: 582px;
+    padding-top: 18px;
+}
+
+#navigation-buttons span{
+    display: block;
+}
+
+#navigation-buttons>.navigation-button{
+    border: 1px solid  rgb(248, 249, 250);
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    /* background-color: red; */
+    height: 34px;
+    border-radius: 4px;
+    padding: 0 16px;
+    color: #4d5156;
+    line-height: 30px;
+    font-size: 14px;
+    margin: 11px 4px;
+    cursor: pointer;
+    user-select: none;
+}
+
+#navigation-buttons>.navigation-button:hover{
+    border: 1px solid  rgb(218, 220, 224);
+    color: #202124;
+}
+
+#navigation-buttons>.navigation-button:focus{
+    border: 1px solid #4285f4;
+}
+/*main*/

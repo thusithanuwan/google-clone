@@ -1,0 +1,9 @@
+**/node_modules
+**/out
+**/target
+**/.idea
+**/dist
+**/.vscode
+**/*.iml
+nohup.out
+front-end.iml

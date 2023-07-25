@@ -272,3 +272,93 @@ footer{
     align-items: center;
 }
 /*footer*/
+
+/* aside */
+
+aside::-webkit-scrollbar {
+    width: 16px;
+}
+aside::-webkit-scrollbar-thumb {
+    background: #dadce0;
+    background-clip: padding-box;
+    border: 4px solid transparent;
+    border-radius: 8px;
+    box-shadow: none;
+    min-height: 50px;
+}
+aside::-webkit-scrollbar-track, .EHzcec::-webkit-scrollbar-track:hover {
+    background: none;
+    border: none;
+}
+
+aside{
+    position: absolute;
+    width: 318px;
+    height: 438px;
+    right: 10px;
+    top: 75px;
+    overflow: hidden;
+    overflow-y: scroll;
+    visibility: hidden;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px 0px rgb(60 64 67 / 30%), 0px 2px 6px 2px rgb(60 64 67 / 15%);
+}
+
+#app-wrapper{
+    display: grid;
+    padding-top: 10px;
+    padding-left: 14px;
+}
+
+#icon-set-1,
+#icon-set-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#icon-set-1>div,
+#icon-set-2>div{
+    padding: 6px;
+}
+
+#icon-set-1 a,
+#icon-set-2 a{
+    display: grid;
+    justify-items: center;
+    text-decoration: none;
+    color: #202124;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.09px;
+    line-height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border-radius: 8px;
+    padding: 3px;
+}
+
+#icon-set-1 a:hover,
+#icon-set-2 a:hover {
+    background-color: #e8f0fe;
+}
+
+#icon-set-1 .icon,
+#icon-set-2 .icon {
+    background-size: 64px;
+    height: 64px;
+    width: 64px;
+    background-image: url(https://ssl.gstatic.com/gb/images/p1_e275b4fe.png);
+}
+
+#icon-set-1 > div > a > div:last-child{
+    text-align: center;
+    width: 76px;
+    /* background-color: green; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/*aside*/

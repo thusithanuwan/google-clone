@@ -14,3 +14,9 @@ document.querySelector('html').addEventListener('click',(eventData)=>{
     aside.style.visibility = 'hidden';
 
 });
+document.querySelector('#svg-close').addEventListener('click',(eventData)=>{
+    eventData.preventDefault();
+
+});
+
+
